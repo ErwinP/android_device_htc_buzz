@@ -58,7 +58,6 @@ WIFI_DRIVER_MODULE_NAME          := "bcm4329"
 WIFI_DRIVER_MODULE_ARG           := "firmware_path=/vendor/firmware/fw_bcm4329.bin nvram_path=/proc/calibration iface_name=wlan0"
 BOARD_WLAN_DEVICE_REV            := bcm4329
 WIFI_BAND                        := 802_11_ABG
-$(call inherit-product-if-exists, hardware/broadcom/wlan/bcm4329/Android.mk)
 
 ## kernel
 TARGET_KERNEL_CONFIG   		:= buzz_defconfig

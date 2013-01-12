@@ -1,6 +1,6 @@
 LOCAL_PATH := $(my-dir)
 
-ifeq ($(TARGET_DEVICE),buzz)
+ifeq ($(TARGET_BOOTLOADER_BOARD_NAME),buzz)
     subdir_makefiles := \
         $(LOCAL_PATH)/libaudio/Android.mk \
         $(LOCAL_PATH)/libcopybit/Android.mk \

@@ -1,6 +1,6 @@
 # Copyright 2011 The Android Open Source Project
 
-ifeq ($(TARGET_BOOTLOADER_BOARD_NAME),heroc)
+ifeq ($(TARGET_BOOTLOADER_BOARD_NAME),buzz)
 
 #AUDIO_POLICY_TEST := true
 #ENABLE_AUDIO_DUMP := true
